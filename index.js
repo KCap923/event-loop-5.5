@@ -57,5 +57,27 @@ const trampoline = (f, ...args) => {
 }
 
 console.log(trampoline(facto(10000)))
-
 //Infinity
+
+// Part 3 ***************************************************************
+
+const primeNum = (n) => {
+if (n === 1) return 1;
+return n / factorial(n / 1, n / 3)
+while (typeof result === "function") {
+  result = result();
+}}
+
+
+
+
+// setTimeout Example
+const myTimeout = setTimeout(myGreeting, 5000);
+
+function myGreeting() {
+  document.getElementById("demo").innerHTML = "Happy Birthday!"
+}
+
+function myStopFunction() {
+  clearTimeout(myTimeout);
+}
